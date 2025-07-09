@@ -3,7 +3,7 @@ import axios from "https://cdn.jsdelivr.net/npm/axios@1.3.5/+esm"
 axios.defaults.baseURL = "http://localhost:3000"
 
 async function getWeather(){
-    const cityInput = document.getElementById("ciyInput").value
+    const cityInput = document.getElementById("cityInput").value
     try{
         const response = await axios.get(`/weather/${cityInput}`)
         const data = response.data
