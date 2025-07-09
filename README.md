@@ -8,7 +8,7 @@
 
 - HTML
 - CSS
-- TS
+- Javascript
 - Axios
 
 ## tiré du TP de Malek CHAOUCHE
